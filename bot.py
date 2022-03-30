@@ -5,7 +5,7 @@ import pandas as pd
 import re
 import random
 data = pd.read_csv('kinopoisk-top250.csv',sep=',')
-client = telebot.TeleBot('5294600538:AAGOtmbhU-vE0Of-RW1EyA8UnraQfgPVPwk')
+client = telebot.TeleBot('')
 def clear_msg(text):
     text = text.replace(' ','').lower()
     text = text.replace(';','')
